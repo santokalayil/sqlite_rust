@@ -1,0 +1,17 @@
+[package]
+name = "sqlite_"
+version = "0.1.0"
+authors = ["Santo Kalayil <santokalayil@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sqlite = "0.26.0"
+cute = "0.3.0"  # for easy list comprehension like of python
+
+
+
+#[dependencies.rusqlite]
+#version = "0.25.1"
+#features = ["bundled"]
